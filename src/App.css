@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navBar {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+
+}
+
+.navBar img {
+
+    height: 100px;
+}
+
+.menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    height: 50px;
+    width: 500px;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.Detail {
+    position:absolute;
+    left: 188px;
+    top: 90px;
+    max-width: 975px;
+    height: 180px;
+
+
+}
+
+.Detail h1 {
+    max-width: 315px;
+    font-size: 48px;
+    font-weight: 800px;
+    line-height: 80px;
+}
+
+.Detail p {
+    font-size: 15px;
+    font-weight: 600px;
+}
+
+.mainContainer{
+    
+    position: absolute;
+    width:1200px ;
+    height: 520px;
+    top: 260px;
+    left: 198px;
+display: flex;
+    
+}
+
+.Column1{
+  
+    position: absolute;
+    width:472px ;
+    height: 520px;
+   
+    gap: 81px;
+}
+
+
+.btn-row-1{
+   
+    
+    width: 472px;
+    height: 44px;
+    display: flex;
+    gap: 50px;
+}
+.btn-row-2{
+    position: absolute;
+    top: 60px;
+   
+    width: 472px;
+    height: 44px;
+   
+}
+
+.submit_btn{
+  
+    position: absolute;
+    top: 400px;
+    height: 50px;
+    width: 472px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Column2{
+    
+    position: absolute;
+    width:472px ;
+    height: 520px;
+    
+}
+
+.img_{
+   
+    background-image: url("public/images/contact.svg" );
+    background-size:cover;
+    position: absolute;
+    left: 580px;
+    top: -50px;
+    width:550px ;
+    height: 560px;
+    
+}
